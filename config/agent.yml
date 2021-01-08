@@ -23,8 +23,8 @@ dbConnection:
     - type: postgres
       url:
         $env: HEROKU_POSTGRESQL_RED_URL
-      ssl:
-        rejectUnauthorized: false
+      extra:
+        ssl: true
       synchronize: true
       logging: false
       entities:
