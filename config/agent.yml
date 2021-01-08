@@ -22,7 +22,7 @@ dbConnection:
   $args:
     - type: postgres
       url:
-        $env: DATABASE_URL
+        $env: HEROKU_POSTGRESQL_RED_URL
       synchronize: true
       logging: false
       entities:

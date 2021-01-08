@@ -24,10 +24,6 @@
       "AGENT_ENDPOINT": {
         "description": "Prefix for agent endpoints",
         "value": "/agent"
-      },
-      "DATABASE_URL": {
-        "description": "Existing database connection",
-        "value": ""
       }
     }
   }
