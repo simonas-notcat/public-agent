@@ -41,7 +41,6 @@ agent:
           $args:
             - $ref: /dbConnection
       authorizedMethods:
-        - resolveDid
         - dataStoreORMGetIdentifiers
         - dataStoreORMGetIdentifiersCount
         - dataStoreORMGetMessages
