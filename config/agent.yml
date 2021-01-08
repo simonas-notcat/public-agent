@@ -91,6 +91,9 @@ agent:
             - $ref: /dbConnection
       authorizedMethods:
         - resolveDid
+        - dataStoreGetMessage
+        - dataStoreGetVerifiableCredential
+        - dataStoreGetVerifiablePresentation
         - dataStoreORMGetIdentifiers
         - dataStoreORMGetIdentifiersCount
         - dataStoreORMGetMessages
