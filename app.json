@@ -8,7 +8,6 @@
       "identity",
       "verifiable-credentials"
     ],
-    "addons": ["heroku-postgresql:hobby-dev"],
     "env": {
       "AGENT_URL": {
         "description": "The url for which your DID will be based on",
@@ -25,6 +24,10 @@
       "AGENT_ENDPOINT": {
         "description": "Prefix for agent endpoints",
         "value": "/agent"
+      },
+      "DATABASE_URL": {
+        "description": "Existing database connection",
+        "value": ""
       }
     }
   }
